@@ -1,0 +1,3 @@
+  for attempt in 1...attempts {
+        print("Enter your guess (attempt \(attempt)): ", terminator: "")
+        if let guess = readLine(), let guessInt = Int(guess) {
